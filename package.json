@@ -1,0 +1,22 @@
+{
+  "name": "express-take-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch test/**.js",
+    "grade": "mocha --reporter spec --timeout 300 test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1",
+    "supertest-as-promised": "^2.0.1"
+  }
+}
